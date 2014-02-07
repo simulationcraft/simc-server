@@ -1,0 +1,4 @@
+- Add /simc/irc/logbot/logbot.py to startup, maybe with some watchdog making sure it's alive.
+
+- Add a scripts which can be run as post-process on the jenkins items which pulls this repo here,
+which distributes the content ( www, scripts, etc. ) to the right places on the server.
