@@ -12,6 +12,11 @@ if [ ${available_cpus} -lt 1 ]; then
   available_cpus=1
 fi
 
+# Allow whatever launches the script to override the CPU detection
+if [ -n "${cpu_count_override}" ]; then
+  available_cpus=${cpu_count_override}
+fi
+
 # Make sure we're in the source root
 if [ ! -d 'engine' ]; then
   echo 'Run from simulationcraft sources root!'
