@@ -30,5 +30,5 @@ if ! which g++ make > /dev/null; then
 fi
 
 # Build
-make OPTS+=-g -C engine -j${available_cpus}
+make -C engine -j${available_cpus}
 
