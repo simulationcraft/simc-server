@@ -42,7 +42,7 @@ if [ ! -d 'engine' ] || [ ! -d 'qt' ]; then
 fi
 
 # Check for build dependencies
-if ! which g++ make qmake > /dev/null; then
+if ! schroot -c "${chroot}" which g++ make qmake > /dev/null; then
   echo 'You need g++, qmake and make to be available.'
   exit 1
 fi
