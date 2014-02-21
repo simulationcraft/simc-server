@@ -30,6 +30,5 @@ if ! which g++ make > /dev/null; then
 fi
 
 # Build
-cd engine
-make -j${available_cpus}
+make -C engine -j${available_cpus}
 
