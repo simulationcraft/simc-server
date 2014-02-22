@@ -24,5 +24,5 @@ SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine/simc"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc Raid_T15H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T15H.html threads=${available_cpus} hosted_html=1 > /simc/logs/Raid_T15H_stdo.txt
-${SIMC_CLI_PATH}/simc Raid_T16H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T16H.html threads=${available_cpus} hosted_html=1 > /simc/logs/Raid_T16H_stdo.txt
+${SIMC_CLI_PATH}/simc Raid_T15H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T15H.html threads=${available_cpus} hosted_html=1 > ${SIMC_OUTPUT_PATH}/Raid_T15H.txt
+${SIMC_CLI_PATH}/simc Raid_T16H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T16H.html threads=${available_cpus} hosted_html=1 > ${SIMC_OUTPUT_PATH}/Raid_T16H.txt
