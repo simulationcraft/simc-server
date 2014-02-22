@@ -11,5 +11,3 @@ cp /simc/reports/Raid_T16H.txt /simc/reports/archive_txt/${NOW}_Raid_T16H.txt
 cd /simc/reports
 git add -A
 git commit -m"Reports from ${NOW}"
-git pull
-git push
