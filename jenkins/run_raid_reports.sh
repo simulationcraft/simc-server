@@ -20,7 +20,7 @@ if [ -n "${simc_iterations_override}" ]; then
   simc_iterations=${simc_iterations_override}
 fi
 
-SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine/simc"
+SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
