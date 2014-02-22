@@ -17,6 +17,14 @@ if [ -n "${cpu_count_override}" ]; then
   available_cpus=${cpu_count_override}
 fi
 
+# make build target
+build_target=all
+
+# Allow whatever launches the script to override the make build target
+if [ -n "${build_target_override}" ]; then
+  build_target=${build_target_override}
+fi
+
 # Make sure we're in the source root
 if [ ! -d 'engine' ]; then
   echo 'Run from simulationcraft sources root!'
@@ -30,5 +38,5 @@ if ! which g++ make > /dev/null; then
 fi
 
 # Build
-make -C engine -j${available_cpus}
+make -C engine ${build_target} -j${available_cpus}
 
