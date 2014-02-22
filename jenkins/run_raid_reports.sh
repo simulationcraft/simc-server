@@ -14,6 +14,9 @@ fi
 if [ ${simc_iterations} -lt 1 ]; then
   simc_iterations=10000
 fi
+if [ -n "${simc_iterations_override}" ]; then
+  simc_iterations=${simc_iterations_override}
+fi
 
 if [ ${SIMC_CLI_PATH} -lt 1 ]; then
   SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine/simc"
