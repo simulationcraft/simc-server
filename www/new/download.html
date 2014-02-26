@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SimulationCraft</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+    <style type="text/css" media="screen">
+    	@import url("css/clean-css.css");
+    </style>
+
+    <link href="https://plus.google.com/118433599130755130238/" rel="publisher" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  </head>
+
+  <body id="home">
+    <div id="masthead" class="section section-open">
+      <a href="index.html"><span id="logo"></span></a>
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="download.html">Downloads</a></li>
+          <li><a href="http://code.google.com/p/simulationcraft/wiki/DocumentationTOC">Documentation</a></li>
+          <li><a href="http://code.google.com/p/simulationcraft/issues/list">Report a bug</a></li>
+          <!--<li><a href="#">Contribute</a></li>
+          <li><a href="#">Contact us</a></li>-->
+        </ul>
+      </div>
+      <p>
+      <h1><a href="http://code.google.com/p/simulationcraft/">SimulationCraft</a> for World of Warcraft</h1>
+      </p>
+      
+      <div class="clear"></div>
+
+      <p>SimulationCraft is a tool to explore combat mechanics in the popular MMO RPG World of Warcraft. It is a multi-player event-driven simulator written in C++ that models raid damage. Increasing class synergy and the prevalence of proc-based combat modifiers have eroded the accuracy of traditional calculators that rely upon closed-form approximations to model very complex mechanics. The goal of this simulator is to close the accuracy gap while maintaining a performance level high enough to calculate relative stat weights to aid gear selection.</p>
+            
+
+    </div>
+    
+    <div id="home-toc" class="section section-open final">
+      <h2>SimulationCraft 5.4.7, release 1</h2>
+      <br />
+      <ul>
+        <li><a href="/release/simc-547-1-win32.zip">Windows 32bit</a>&nbsp;|&nbsp;<a href="/release/simc-547-1-win64.zip">Windows 64bit</a></li>
+        <li><a href="/release/simc-547-1-osx-x86.dmg">Mac OS X 10.6+ (CLI 32/64bit, GUI 64bit)</a></li>
+        <li><a href="https://launchpad.net/~simulationcraft/+archive/simulationcraft">Ubuntu 12.04/13.10</a></li>
+        <li><a href="/release/simc-547-1-source.zip">Source code</a></li>
+        <li>If you wish to run Simulationcraft on other (Linux) distributions, follow the <a href="http://code.google.com/p/simulationcraft/wiki/HowToBuild">build instructions</a></li>
+      </ul>
+      <h3>Release notes</h3>
+      <ul>
+        <li>
+          <h4>General</h4>
+          <ul>
+            <li><strong>Rename various "target" prefixed options to "enemy" prefix</strong></li>
+            <li>Increase buff uptime reporting precision</li>
+            <li>Small tweaks to waiting time reporting in text results</li>
+            <li>"cancel_buff" action now works on all relevant buffs</li>
+            <li>Fix channeled dot-autocasting behavior, when the auto-cast misses</li>
+            <li>Fix override.target_health option</li>
+            <li>Fix fixed_time option interaction with enemy health percentage</li>
+            <li>Allow actors with tank role to use normal enemy health based simulation model by default</li>
+            <li>Fix a crash bug with dps_plot_iterations option</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Graphical user interface</h4>
+          <ul>
+            <li>Add pause simulation feature to GUI
+            <li>Add error page to inform users better of http related errors inside the GUI
+            <li>Add simulation queue feature
+            <li>Change certain options to be editable (threads, iterations, fight length)
+            <li>Small progressbar improvements on lengthy iterations
+            <li>Added "Close other tabs" and "Close all tabs" items to tab bar context menu
+            <li>Change commandline keyboard shortcuts from ARROWKEY to ALT + ARROWKEY
+            <li>Fix results not following page anchors
+            <li>Fix issues with saving results to a file
+            <li>Change tab shortcut from ALT + NUMBER to Cmd + NUMBER on OS X
+          </ul>
+        </li>
+        <li>
+          <h4>Druid</h4>
+          <ul>
+            <li>Precast wild mushrooms through pre-combat actions to allow users more control over how/when they are cast</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Hunter</h4>
+          <ul>
+            <li>Improved BM Hunter action list and heroic T16 gear setup</li>
+            <li>Improve default action list stampede handling for MM/SV</li>
+            <li>Fixed quad-upgrading on profiles</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Paladin</h4>
+          <ul>
+            <li>Added Symbiosis version of Barkskin</li>
+            <li>Fix Eternal Flame</li>
+            <li>Adjust protection paladin default action list</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Rogue</h4>
+          <ul>
+            <li>Disallow poison and main gauche procs from Expose Armor.</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Shaman</h4>
+          <ul>
+            <li>Fix Lava Surge behavior when it procs during a Lava Burst cast</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Warrior</h4>
+          <ul>
+            <li>Added Enraged Speed glyph support</li>
+            <li>Updated 2+ target aoe default action list for Fury/Arms</li>
+            <li>Updated Fury TG default action list</li>
+            <li>Fix Flurry of Xuen interaction with various class-specific effects</li>
+            <li>Fix Impeding Victory heal coefficient</li>
+            <li>Fix Storm Bolt offhand attack behavior</li>
+            <li>Fix Whirlwind behavior</li>
+            <li>Fix Meat Cleaver expiration on missed Raging Blows</li>
+            <li>Fix a crash with aoe damage + slam sweeping strikes</li>
+          </ul>
+        </li>
+      </ul>
+      <h4><a href="/release/">Previous versions</a></h4>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/ga.js"></script>
+</html>
