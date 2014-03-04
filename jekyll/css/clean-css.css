@@ -3,7 +3,7 @@
 body{
   padding:5px 25px 25px 25px;
   font-family:"Lucida Grande",Arial,sans-serif;
-  font-size:16px;background:url("/img/bg.jpeg");
+  font-size:16px;background:url("../img/bg.jpeg");
   color: #e2c7a3; text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1 a{color:#c1a144}
 h2{font-size:18px}
 ul,ol{padding-left:20px}
 .clear{clear:both}
-.toggle,.toggle-details{cursor:pointer;background-image:url("/img/arrows.png");background-repeat:no-repeat}
+.toggle,.toggle-details{cursor:pointer;background-image:url("../img/arrows.png");background-repeat:no-repeat}
 h2.toggle{padding-left:18px;background-size:16px auto;background-position:0 4px}
 h2.toggle:hover{color:#47c072}
 h2.open{margin-bottom:10px;background-position:0 -18px}
@@ -64,11 +64,11 @@ h2.open{margin-bottom:10px;background-position:0 -18px}
   height:180px;
   text-align:left;
   color: #ddd;
-  background:#331d0f url("/img/bg2.jpeg") -440px -10px;
+  background:#331d0f url("../img/bg2.jpeg") -440px -10px;
 }
 
 #logo {
-display:block;position:absolute;top:7px;left:15px;width:375px;height:180px;background:url("/img/logo.png") 0 0 no-repeat;
+display:block;position:absolute;top:7px;left:15px;width:375px;height:180px;background:url("../img/logo.png") 0 0 no-repeat;
 text-align: center;
 }
 
