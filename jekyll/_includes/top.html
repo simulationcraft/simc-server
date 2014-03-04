@@ -7,11 +7,11 @@
       </div>
       <div class="nav unit two-thirds hide-on-mobiles">
         <ul>
-          <li class="{% if page.overview %}current{% endif %}"><a href="index.html">Home</a></li>
-          <li class="{% if page.title == "Download" %}current{% endif %}"><a href="download.html">Downloads</a></li>
+          <li class="{% if page.overview %}current{% endif %}"><a href="{{ site.url }}/">Home</a></li>
+          <li class="{% if page.title == "Download" %}current{% endif %}"><a href="{{ site.url }}/download.html">Downloads</a></li>
           <li><a href="http://code.google.com/p/simulationcraft/wiki/DocumentationTOC">Documentation</a></li>
           <li><a href="http://code.google.com/p/simulationcraft/issues/list">Report a bug</a></li>
-          <li class="{% if page.title == "Contribute" %}current{% endif %}"><a href="contribute.html">Help us</a></li>
+          <li class="{% if page.title == "Contribute" %}current{% endif %}"><a href="{{ site.url }}/contribute.html">Help us</a></li>
           <!--<li><a href="#">Contact us</a></li>-->
         </ul>
       </div>
