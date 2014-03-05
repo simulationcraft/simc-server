@@ -108,9 +108,10 @@ h2.open {
 }
 .section .toggle-content { padding-left: 18px }
 .nav {
-    float: right;
     padding: 5px 5px 0 0;
-    margin-top: 52px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    align: center;
 }
 .nav ul li {
     border: 1px solid #333;
