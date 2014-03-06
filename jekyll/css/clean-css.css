@@ -115,25 +115,32 @@ h2.open {
 }
 
 .nav ul li {
+
+  padding: 0;
+  margin: 0.6em 0em;
+  display: inline-block;
+  list-style-type: none;
+  }
+.nav ul li a{
     background-color: #333;
-    border: 1px solid #333;
-    float: left;
-    list-style-type: none;
-    margin: 0 5px;
-    padding: 8px 18px;
+  	padding: 0.4em 1em;
     text-transform: uppercase;
-    -khtml-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 14px;
     font-weight: 800;
+    margin: 0 0.2em;
+    
+  text-shadow: none;
+  	transition: all .25s;
+   -moz-transition: all .25s;
+   -webkit-transition: all .25s;
 }
-.nav ul li:hover {
+.nav ul li a:hover {
     background: #252525;
     box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-.nav li.current {
+.nav li.current a{
     background: #fc0;
     box-shadow: inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1);
     text-shadow: 0 1px 0 rgba(255,255,255,.3);
@@ -141,6 +148,6 @@ h2.open {
 .nav li.current a {
   color: #222;
 }
-.nav ul li.current:hover {
+.nav ul li.current a:hover {
     background: #fc0;
 }
