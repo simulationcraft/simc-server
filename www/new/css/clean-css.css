@@ -141,3 +141,6 @@ h2.open {
 .nav li.current a {
   color: #222;
 }
+.nav ul li.current:hover {
+    background: #fc0;
+}
