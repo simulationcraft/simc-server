@@ -12,7 +12,7 @@
 {% include css/gridism.css %}
 {% endcapture %}
 
-{% if site.GH_ENV %}
+{% if site.strip_css %}
   {{ screen | strip_newlines | remove: '  ' }}
 {% else %}
   {{ screen }}
