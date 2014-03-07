@@ -10,3 +10,10 @@
  * $gridism.css *
 \*                */
 {% include css/gridism.css %}
+{% endcapture %}
+
+{% if site.GH_ENV %}
+  {{ screen | strip_newlines | remove: '  ' }}
+{% else %}
+  {{ screen }}
+{% endif %}
