@@ -5,7 +5,7 @@ title: Download
 
     {% for post in site.posts %}
     <div id="home-toc" class="grid section section-open final">
-      <h2 class="toggle {% if post.index == 0 %}open{% else %}closed{% endif %}">{{ post.title }}</h2>
+      <h2 class="toggle {% if forloop.first %}open{% else %}closed{% endif %}">{{ post.title }}</h2>
       <div class="toggle-content">
         {{ post.content }}
       </div>
