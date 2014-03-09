@@ -4,9 +4,11 @@ title: Download
 ---
 
     {% for post in site.posts %}
-    <div id="home-toc" class="grid section section-open final toggle-content">
+    <div id="home-toc" class="grid section section-open final">
       <h2 class="toggle open">{{ post.title }}</h2>
-      {{ post.content }}
+      <div class="toggle-content">
+        {{ post.content }}
+      </div>
     </div>
   	{% endfor %}
   	  
