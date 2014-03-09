@@ -22,11 +22,7 @@ if (typeof jQuery != 'undefined') {
             track = false;
 
           if (track) {
-            alert(elEv.category);
-            alert(elEv.action);
-            alert(elEv.label);
-            alert(elEv.loc);
-            alert(_gaq.push(['_trackEvent', elEv.category.toLowerCase(), elEv.action.toLowerCase(), elEv.label.toLowerCase(), elEv.value, elEv.non_i]));
+            _gaq.push(['_trackEvent', elEv.category.toLowerCase(), elEv.action.toLowerCase(), elEv.label.toLowerCase(), elEv.value, elEv.non_i]);
             if ( el.attr('target') == undefined || el.attr('target').toLowerCase() != '_blank') {
               setTimeout(function() { location.href = elEv.loc; }, 400);
               return false;
