@@ -5,6 +5,7 @@ title: Download
 
     <div id="home-toc" class="grid section section-open final">
       {% for post in site.posts %}
+      <h2>{{ post.title }}</h2>
       {{ post.content }}
   	  {% endfor %}
       <h4><a href="/release/">Previous versions</a></h4>
