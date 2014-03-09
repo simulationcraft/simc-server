@@ -2,11 +2,11 @@
 layout: default
 title: Download
 ---
-
+    {% assign opened = false %}
     {% for post in site.posts %}
     {% if post.tags contains "release" %}
     <div id="home-toc" class="grid section section-open final">
-      <h2 class="toggle {% if forloop.first %}open{% else %}closed{% endif %}">{{ post.title }}</h2>
+      <h2 class="toggle {% if !opened = true %}{% assign opened = true %}open{% else %}closed{% endif %}">{{ post.title }}</h2>
       <div class="toggle-content">
         <p><i>Released on {{post.date}}</i></p>
         {{ post.content }}
