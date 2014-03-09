@@ -1,0 +1,20 @@
+<html>
+{% include header.html %}
+
+  <body id="home">
+  {% include top.html %}
+  
+  
+    <div id="home-toc" class="grid section section-open final">
+      <h2>{{ page.title }}</h2>
+        <p><i>Released on {{page.date}}</i></p>
+        
+  		{{ content }}
+    </div>
+
+  {% include bottom.html %}
+  {% include analytics.html %}
+
+  </body>
+  {% include footer.html %}
+</html>
