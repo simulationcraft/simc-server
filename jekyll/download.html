@@ -9,7 +9,7 @@ title: Download
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
       {% if processed_first != true %}
         {% assign processed_first = true %}
-        <p><i>Released on {{post.date}}</i></p>
+        <p><i>Released on {{ post.date | date_to_string }}</i></p>
         {{ post.content }}
       {% endif %}
     </div>
