@@ -2,15 +2,16 @@
 layout: default
 title: Download
 ---
-    {% assign opened = false %}
+    {% assign processed_first = false %}
     {% for post in site.posts %}
     {% if post.tags contains "release" %}
     <div id="home-toc" class="grid section section-open final">
-      <h2 class="toggle {% if opened != true %}{% assign opened = true %}open{% else %}closed{% endif %}">{{ post.title }}</h2>
-      <div class="toggle-content">
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      {% if processed_first != true %}
+        {% assign opened = true %}
         <p><i>Released on {{post.date}}</i></p>
         {{ post.content }}
-      </div>
+      {% endif %}
     </div>
     {% endif %}
   	{% endfor %}
