@@ -7,7 +7,7 @@
   
     <div id="home-toc" class="grid section section-open final">
       <h2>{{ page.title }}</h2>
-        <p><i>Released on {{page.date}}</i></p>
+        <p><i>Released on {{ page.date | date_to_string }}</i></p>
         
   		{{ content }}
     </div>
