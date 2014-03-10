@@ -2,6 +2,7 @@
 layout: one_section
 title: Contribute
 permalink: /
+overview: true
 ---
 ## Welcome
 
