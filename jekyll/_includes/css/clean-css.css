@@ -11,6 +11,7 @@ body {
     color: #e2c7a3;
     text-align: center;
 }
+
 a {
     color: #fc0;
     text-decoration: none;
@@ -28,6 +29,9 @@ h6 {
     color: #27a052;
     margin-top: 1em;
     margin-bottom: .5em;
+}
+h4 a {
+    color: #fc0;
 }
 h1,
 h2 {
