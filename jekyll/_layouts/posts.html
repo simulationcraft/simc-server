@@ -1,20 +1,9 @@
-<html>
-{% include header.html %}
-
-  <body id="home">
-  {% include top.html %}
-  
-  
+---
+layout: default
+---
     <div id="home-toc" class="grid section section-open final">
       <h2>{{ page.title }}</h2>
         <p><i>Released on {{ page.date | date_to_string }}</i></p>
         
   		{{ content }}
     </div>
-
-  {% include bottom.html %}
-  {% include analytics.html %}
-
-  </body>
-  {% include footer.html %}
-</html>
