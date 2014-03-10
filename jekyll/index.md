@@ -1,6 +1,6 @@
 ---
 layout: one_section
-title: Contribute
+title: SimulationCraft
 permalink: /
 overview: true
 ---
