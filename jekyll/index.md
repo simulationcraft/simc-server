@@ -1,7 +1,7 @@
 ---
 layout: one_section
 title: Contribute
-permalink: /index-test/
+permalink: /
 ---
 ## Welcome
 
