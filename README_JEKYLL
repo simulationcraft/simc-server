@@ -1,0 +1,17 @@
+Jekyll is a tool to easily generate static html pages from a set of files.
+
+layouts define the main page set up, composed of files from the _includes directory
+
+Creating a new page is as easy as adding the header to include the default layout, and writing the contents
+afterwards.
+
+
+Blog System:
+In the _posts folder, you can create new markdown (.md ) or textile (.textile) files for blog post
+like entries.
+The files need to have the format: YEAR-MONTH-DAY-title.MARKUP  , eg. 2014-03-09-release547-2.md
+Post entries should have the layout: posts, for easy preview functionality.
+They can be previewed eg. at http://www.simulationcraft.org/2014/03/09/release547-2.html
+
+Release Posts:
+- If the post contains the tag 'release', it will be included into the Download page.
