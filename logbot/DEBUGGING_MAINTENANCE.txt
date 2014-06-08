@@ -1,0 +1,12 @@
+Protocol 2014/06/08 by philoptik:
+
+- Logbot is controlled by monit. Configuration file at /etc/monit/conf.d/irclogbot.conf
+
+- There is a logbot user, which runs the logbot. ~ of logbot is /srv/logbot
+
+- Logbot monit start command is: "su - logbot -c 'cd logbot; screen -d -m ./logbot.py'"
+
+- One can attach to the running logbot screen by entering "sudo su - logbot -c 'screen -r'". At first, this will
+fail because the display cannot be attached. Solved by calling "sudo chown 777 /dev/pts/<N>".
+
+- Logbot irc logs go to: /srv/logbot/logbot/logs
