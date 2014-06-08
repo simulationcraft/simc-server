@@ -66,6 +66,7 @@ def urlify2(value):
 DEBUG = False
 
 # IRC Server Configuration
+# IRC Server Configuration
 SERVER_LIST = [("stratics.frws.com", 6667, None),
                ("irc.gamers-irc.org", 6667, None),
                ("irc.us.glowfish.de", 6667, None),
@@ -84,6 +85,7 @@ NICK_PASS = ""
 
 # The local folder to save logs
 LOG_FOLDER = "logs"
+LOG_FOLDER_MONTHLY = "monthly_logs"
 
 # The message returned when someone messages the bot
 HELP_MESSAGE = "Check out http://excid3.com"
@@ -282,6 +284,7 @@ class Logbot(SingleServerIRCBot):
 
         for chan in chans:
             self.append_log_msg(chan, msg)
+            self.append_monthly_log_msg(chan, msg)
 
         self.count += 1
 
@@ -355,6 +358,45 @@ class Logbot(SingleServerIRCBot):
                                           (time, time, time, msg)
         append_line(log_path, message)
 
+    def append_monthly_log_msg(self, channel, msg):
+        print "%s >>> %s" % (channel, msg)
+        #Make sure the channel is always lowercase to prevent logs with other capitalisations to be created
+        channel_title = channel
+        channel = channel.lower()
+
+        # Create the channel path if necessary
+        chan_path = "%s/%s" % (LOG_FOLDER_MONTHLY, channel)
+        if not os.path.exists(chan_path):
+            os.makedirs(chan_path)
+
+            # Create channel index
+            write_string("%s/index.html" % chan_path, html_header.replace("%title%", "%s | Logs" % channel_title))
+
+            # Append channel to log index
+            append_line("%s/index.html" % LOG_FOLDER_MONTHLY, '<a href="%s/index.html">%s</a>' % (channel.replace("#", "%23"), channel_title))
+
+        # Current log
+        try:
+            localtime = datetime.now(timezone(self.channel_locations.get(channel,DEFAULT_TIMEZONE)))
+            time = localtime.strftime("%Y-%m-%d %H:%M:%S")
+            date = localtime.strftime("%Y-%m")
+        except:
+            time = strftime("%Y-%m-%d %H:%M:%S")
+            date = strftime("%Y-%m")
+
+        log_path = "%s/%s/%s.html" % (LOG_FOLDER_MONTHLY, channel, date)
+
+        # Create the log date index if it doesnt exist
+        if not os.path.exists(log_path):
+            write_string(log_path, html_header.replace("%title%", "%s | Logs for %s" % (channel_title, date)))
+
+            # Append date log
+            append_line("%s/index.html" % chan_path, '<a href="%s.html">%s</a>' % (date, date))
+
+        # Append current message
+        message = "<a href=\"#%s\" name=\"%s\" class=\"time\">[%s]</a> %s" % \
+                                          (time, time, time, msg)
+        append_line(log_path, message)
     ### These are the IRC events
 
     def on_all_raw_messages(self, c, e):
@@ -461,6 +503,10 @@ def main():
     if not os.path.exists(LOG_FOLDER):
         os.makedirs(LOG_FOLDER)
         write_string("%s/index.html" % LOG_FOLDER, html_header.replace("%title%", "Chat Logs"))
+        
+    if not os.path.exists(LOG_FOLDER_MONTHLY):
+        os.makedirs(LOG_FOLDER_MONTHLY)
+        write_string("%s/index.html" % LOG_FOLDER_MONTHLY, html_header.replace("%title%", "Monthly Chat Logs"))
 
     # Start the bot
     bot = Logbot(SERVER_LIST, CHANNELS, NICK, NICK_PASS)
