@@ -20,9 +20,12 @@ if [ -n "${simc_iterations_override}" ]; then
   simc_iterations=${simc_iterations_override}
 fi
 
+# Other options
+other_options="thread_priority=low  hosted_html=1"
+
 SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc Raid_T15H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T15H.html threads=${available_cpus} hosted_html=1 > ${SIMC_OUTPUT_PATH}/Raid_T15H.txt
-${SIMC_CLI_PATH}/simc Raid_T16H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T16H.html threads=${available_cpus} hosted_html=1 > ${SIMC_OUTPUT_PATH}/Raid_T16H.txt
+${SIMC_CLI_PATH}/simc Raid_T15H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T15H.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T15H.txt
+${SIMC_CLI_PATH}/simc Raid_T16H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T16H.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T16H.txt
