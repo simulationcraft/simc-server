@@ -66,8 +66,11 @@ def urlify2(value):
 DEBUG = False
 
 # IRC Server Configuration
-# IRC Server Configuration
-SERVER_LIST = [("stratics.frws.com", 6667, None),
+SERVER_LIST = [
+               ("stratics.frws.com", 7000, None),
+               ("irc.gamers-irc.org", 7000, None),
+               
+               ("stratics.frws.com", 6667, None),
                ("irc.gamers-irc.org", 6667, None),
                ("irc.us.glowfish.de", 6667, None),
                ("irc.glowfish.de", 6667, None),
@@ -76,9 +79,7 @@ SERVER_LIST = [("stratics.frws.com", 6667, None),
                ("irc.gamers-irc.org", 6668, None),
                ("irc.us.glowfish.de", 6668, None),
                ("irc.glowfish.de", 6668, None),
-               
-               ("stratics.frws.com", 7000, None),
-               ("irc.gamers-irc.org", 7000, None),] # ( SERVER, PORT, SERVER_PASS )
+               ] # ( SERVER, PORT, SERVER_PASS )
 CHANNELS=["#simulationcraft"]
 NICK = "linodelogbot"
 NICK_PASS = ""
