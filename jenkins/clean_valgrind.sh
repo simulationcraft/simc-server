@@ -2,7 +2,7 @@
 
 set -e
 
-SAVE_LOGS=5
+SAVE_LOGS=4
 N_LOGS=$(ls -l *.simc-cli|wc -l)
 
 if [ ${N_LOGS} -gt ${SAVE_LOGS} ]; then
