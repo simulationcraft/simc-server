@@ -30,7 +30,6 @@ helpful people on our IRC channel at [irc.stratics.com #simulationcraft](http://
   <ul>
     <ul>
       <li><a href="{{ site.url }}/reports/Raid_T16H.html">T16H Patchwerk-style</a></li>
-      <li><a href="{{ site.url }}/reports/Raid_T15H.html">T15H Patchwerk-style</a></li>
     </ul>
   </ul>
 </div>
