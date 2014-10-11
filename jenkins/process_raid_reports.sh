@@ -1,15 +1,12 @@
 #!/bin/bash
 
 NOW=$(date +%s)
-cp /simc/reports/Raid_T15H.html /simc/reports/archive_html/${NOW}_Raid_T15H.html
-gzip /simc/reports/archive_html/${NOW}_Raid_T15H.html
-cp /simc/reports/Raid_T16H.html /simc/reports/archive_html/${NOW}_Raid_T16H.html
-gzip /simc/reports/archive_html/${NOW}_Raid_T16H.html
 
-#cp /simc/reports/Raid_T15H.txt /simc/reports/archive_txt/${NOW}_Raid_T15H.txt
-#gzip /simc/reports/archive_txt/${NOW}_Raid_T15H.txt
-#cp /simc/reports/Raid_T16H.txt /simc/reports/archive_txt/${NOW}_Raid_T16H.txt
-#gzip /simc/reports/archive_txt/${NOW}_Raid_T16H.txt
+cp /simc/reports/Raid_T16H.html /simc/reports/archive_html/${NOW}_Raid_T16M.html
+gzip /simc/reports/archive_html/${NOW}_Raid_T16M.html
+
+cp /simc/reports/Raid_T16H.txt /simc/reports/archive_txt/${NOW}_Raid_T16M.txt
+gzip /simc/reports/archive_txt/${NOW}_Raid_T16M.txt
 
 # Work on archive git repository
 cd /simc/reports
