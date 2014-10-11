@@ -48,6 +48,7 @@ if ! schroot -c "${chroot}" -- which g++ make qmake > /dev/null; then
 fi
 
 # Build
+schroot -c "${chroot}" -- qmake --version
 schroot -c "${chroot}" -- qmake simcqt.pro
 schroot -c "${chroot}" -- make -j${available_cpus}
 
