@@ -29,7 +29,8 @@ helpful people on our IRC channel at [irc.stratics.com #simulationcraft](http://
 <div class="toggle-content">
   <ul>
     <ul>
-      <li><a href="{{ site.url }}/reports/Raid_T16H.html">T16H Patchwerk-style</a></li>
+      <li><a href="{{ site.url }}/reports/Raid_T16M.html">Warlords of Draenor T16M Patchwerk-style</a></li>
+      <li><a href="{{ site.url }}/reports/Raid_T16H.html">Mists of Pandaria T16H Patchwerk-style</a></li>
     </ul>
   </ul>
 </div>
