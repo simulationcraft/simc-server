@@ -23,7 +23,7 @@ both at the normal and heroic levels.
 
 If you need help on running SimulationCraft, developing custom actions lists, or have other questions, please see our 
 [extensive documentation](http://code.google.com/p/simulationcraft/wiki/StartersGuide). You can also normally find 
-helpful people on our IRC channel at [irc.stratics.com #simulationcraft](http://chat.mibbit.com/?server=irc.stratics.com&amp;channel=%23simulationcraft)
+helpful people on our IRC channel at [irc.gamers-irc.org #simulationcraft](http://chat.mibbit.com/?server=irc.gamers-irc.org&amp;channel=%23simulationcraft)
       
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
