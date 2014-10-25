@@ -67,15 +67,15 @@ DEBUG = False
 
 # IRC Server Configuration
 SERVER_LIST = [
-               ("stratics.frws.com", 7000, None),
                ("irc.gamers-irc.org", 7000, None),
+               ("irc.frws.com", 7000, None),
                
-               ("stratics.frws.com", 6667, None),
+               ("irc.frws.com", 6667, None),
                ("irc.gamers-irc.org", 6667, None),
                ("irc.us.glowfish.de", 6667, None),
                ("irc.glowfish.de", 6667, None),
                
-               ("stratics.frws.com", 6668, None),
+               ("irc.frws.com", 6668, None),
                ("irc.gamers-irc.org", 6668, None),
                ("irc.us.glowfish.de", 6668, None),
                ("irc.glowfish.de", 6668, None),
