@@ -32,7 +32,6 @@ We also update release notes on every official build, which are easier to unders
 <div class="toggle-content">
   <ul>
     <ul>
-      <li><a href="{{ site.url }}/reports/Raid_T16M.html">Warlords of Draenor T16M Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17P.html">Warlords of Draenor T17P 630 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17N.html">Warlords of Draenor T17N 665 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17M.html">Warlords of Draenor T17M 695 ilevel Patchwerk-style</a></li>
