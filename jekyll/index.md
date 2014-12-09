@@ -27,8 +27,9 @@ helpful people on our IRC channel at [irc.gamers-irc.org #simulationcraft](http:
 
 Wondering what may have changed since the last time reports were updated? [Check here!](https://code.google.com/p/simulationcraft/source/list)
 We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
-  
-<h2 class="toggle open">Raid Results - Includes hotfixes up to 12-9-14, EXCEPT Hunter/Death Knight.</h2>
+
+<h1 style="color: red;">Includes hotfixes up to 12-9-14, EXCEPT Hunter/Death Knight. Also includes T17 Set Bonuses.</h1>
+<h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
     <ul>
