@@ -21,12 +21,17 @@ if [ -n "${simc_iterations_override}" ]; then
 fi
 
 # Other options
-other_options="thread_priority=low  hosted_html=1"
+other_options="thread_priority=low  hosted_html=1 disable_set_bonuses=1"
+
 
 SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc Raid_T17P.simc disable_set_bonuses=1 iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17P.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17P.txt
-${SIMC_CLI_PATH}/simc Raid_T17N.simc disable_set_bonuses=1 iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17N.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17N.txt
-${SIMC_CLI_PATH}/simc Raid_T17M.simc disable_set_bonuses=1 iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17M.txt
+${SIMC_CLI_PATH}/simc Raid_T17P.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17P.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17P.txt
+${SIMC_CLI_PATH}/simc Raid_T17N.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17N.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17N.txt
+${SIMC_CLI_PATH}/simc Raid_T17M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17M.txt
+
+# Aoe Sim
+aoe_options="enemy=Fluffy_Pillow enemy=enemy2 enemy=enemy3 enemy=enemy4"
+${SIMC_CLI_PATH}/simc Raid_T17N.simc $(aoe_options) iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.txt
