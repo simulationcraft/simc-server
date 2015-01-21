@@ -33,5 +33,5 @@ ${SIMC_CLI_PATH}/simc Raid_T17N.simc iterations=${simc_iterations} html=${SIMC_O
 ${SIMC_CLI_PATH}/simc Raid_T17M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17M.txt
 
 # Aoe Sim
-aoe_options="tmi_boss=TMI_Standard_Boss_T17N_2 tmi_boss=TMI_Standard_Boss_T17N_3 tmi_boss=TMI_Standard_Boss_T17N_4"
+aoe_options="desired_targets=4"
 ${SIMC_CLI_PATH}/simc Raid_T17N.simc ${aoe_options} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.txt
