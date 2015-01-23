@@ -36,6 +36,7 @@ We also update release notes on every official build, which are easier to unders
       <li><a href="{{ site.url }}/reports/Raid_T17P.html">Warlords of Draenor T17P 630 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17N.html">Warlords of Draenor T17N 665 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17M.html">Warlords of Draenor T17M 695 ilevel Patchwerk-style</a></li>
+	  <li><a href="{{ site.url }}/reports/Raid_T17N_AOE.html">WoD T17N 665 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
     </ul>
   </ul>
 </div>
