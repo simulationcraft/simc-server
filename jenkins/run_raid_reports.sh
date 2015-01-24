@@ -33,5 +33,5 @@ ${SIMC_CLI_PATH}/simc Raid_T17N.simc iterations=${simc_iterations} html=${SIMC_O
 ${SIMC_CLI_PATH}/simc Raid_T17M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17M.txt
 
 # Aoe Sim
-aoe_options="desired_targets=4 max_time=180"
+aoe_options="desired_targets=4 max_time=300"
 ${SIMC_CLI_PATH}/simc aoe_raid_t17n.simc ${aoe_options} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17N_AOE.txt
