@@ -21,7 +21,7 @@ if [ -n "${simc_iterations_override}" ]; then
 fi
 
 # Other options
-other_options="thread_priority=low  hosted_html=1 disable_set_bonuses=1"
+other_options="thread_priority=low  hosted_html=1"
 
 
 SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
