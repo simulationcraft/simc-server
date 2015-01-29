@@ -35,5 +35,5 @@ ${SIMC_CLI_PATH}/simc Raid_T17M.simc iterations=${simc_iterations} html=${SIMC_O
 # Aoe Sim
 aoe_options="enemy=enemy2 actions=auto_attack,damage=0 enemy=enemy3 actions=auto_attack,damage=0 enemy=enemy4 actions=auto_attack,damage=0 max_time=300"
 aoe_options2="raid_events+=/adds,count=8,first=15,cooldown=44,duration=15,last=250 max_time=300"
-${SIMC_CLI_PATH}/simc Raid_T17H_AOE.simc ${aoe_options} iterations=5000 html=${SIMC_OUTPUT_PATH}/Raid_T17H_AOE.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17H_AOE.txt
-${SIMC_CLI_PATH}/simc Raid_T17H_AOE.simc ${aoe_options2} iterations=5000 html=${SIMC_OUTPUT_PATH}/Raid_T17H_AddWaves.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17H_AddWaves.txt
+${SIMC_CLI_PATH}/simc Raid_T17H_AOE.simc ${aoe_options} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17H_AOE.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17H_AOE.txt
+${SIMC_CLI_PATH}/simc Raid_T17H_AOE.simc ${aoe_options2} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T17H_AddWaves.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T17H_AddWaves.txt
