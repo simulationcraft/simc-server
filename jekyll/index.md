@@ -28,7 +28,7 @@ helpful people on our IRC channel at [irc.gamers-irc.org #simulationcraft](http:
 Wondering what may have changed since the last time reports were updated? [Check here!](https://code.google.com/p/simulationcraft/source/list)
 We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
 
-<h2 style="color: red;">Includes hotfixes up to 2015-01-29. T17 Set bonuses are now re-enabled on everything except T17P.</h2>
+<h2 style="color: red;">Includes hotfixes up to 2015-01-28. T17 Set bonuses are now re-enabled on everything except T17P.</h2>
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
