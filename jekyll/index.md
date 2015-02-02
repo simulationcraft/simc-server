@@ -33,8 +33,8 @@ We also update release notes on every official build, which are easier to unders
 <div class="toggle-content">
   <ul>
     <ul>
-      <li><a href="{{ site.url }}/reports/Raid_T17P.html">Warlords of Draenor T17P 630 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17N.html">Warlords of Draenor T17N 665 ilevel Patchwerk-style</a></li>
+      <li><a href="{{ site.url }}/reports/Raid_T17H.html">Warlords of Draenor T17H 680 ilevel Patchwerk-style</a></li>
       <li><a href="{{ site.url }}/reports/Raid_T17M.html">Warlords of Draenor T17M 695 ilevel Patchwerk-style</a></li>
 	  <li><a href="{{ site.url }}/reports/Raid_T17H_AOE.html">WoD T17H 680 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
 	  <li><a href="{{ site.url }}/reports/Raid_T17H_AddWaves.html">WoD T17H 680 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds -EXPERIMENTAL-</a></li>
