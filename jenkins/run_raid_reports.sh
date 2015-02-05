@@ -15,7 +15,7 @@ if [ -n "${cpu_count_override}" ]; then
 fi
 
 # Iterations
-simc_iterations=5000
+simc_iterations=7500
 if [ -n "${simc_iterations_override}" ]; then
   simc_iterations=${simc_iterations_override}
 fi
