@@ -29,7 +29,7 @@ gzip /simc/reports/archive_txt/${NOW}_Raid_T17P.txt
 cp /simc/reports/Raid_T17H_AOE.txt /simc/reports/archive_txt/${NOW}_Raid_T17H_AOE.txt
 gzip /simc/reports/archive_txt/${NOW}_Raid_T17H_AOE.txt
 
-cp /simc/reports/_Raid_T17H_AddWaves.txt /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
+cp /simc/reports/Raid_T17H_AddWaves.txt /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 gzip /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 
 # Work on archive git repository
