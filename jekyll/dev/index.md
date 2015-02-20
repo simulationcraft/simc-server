@@ -6,7 +6,7 @@ title: Developers Corner
 
 * [IRC logs]({{site.url}}/irclogs/)
 * [IRC logs monthly]({{site.url}}/irclogs_monthly/)
-* [Mailing List (Google Groups](http://groups.google.com/forum/#!forum/simulationcraft)
+* [Mailing List (Google Groups)](http://groups.google.com/forum/#!forum/simulationcraft)
 * [Jenkins](http://jenkins.simulationcraft.org)
 * [GitHub SimulationCraft](https://github.com/orgs/simulationcraft/dashboard)
 * [Google Search (last week): simulationcraft](https://www.google.com/search?q=simulationcraft+-site:google.com+-site%3Asimulationcraft.org&tbs=qdr:w)
