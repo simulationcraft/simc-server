@@ -31,12 +31,20 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <ul>
-      <li><a href="{{ site.url }}/reports/Raid_T17N.html">Warlords of Draenor T17N 670 ilevel Patchwerk-style</a></li>
-      <li><a href="{{ site.url }}/reports/Raid_T17H.html">Warlords of Draenor T17H 685 ilevel Patchwerk-style</a></li>
-      <li><a href="{{ site.url }}/reports/Raid_T17M.html">Warlords of Draenor T17M 700 ilevel Patchwerk-style</a></li>
-	  <li><a href="{{ site.url }}/reports/Raid_T17M_AOE.html">WoD T17M 700 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
-	  <li><a href="{{ site.url }}/reports/Raid_T17M_AddWaves.html">WoD T17M 700 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds -EXPERIMENTAL-</a></li>
-    </ul>
+    <li>Tier 18 reports
+        <li><a href="{{ site.url }}/reports/Raid_T18N.html">Warlords of Draenor T18N 690-705 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T18H.html">Warlords of Draenor T18N 705-720 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T18H_AOE.html">WoD T18H 705-720 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T18H_AddWaves.html">WoD T18H 705-720 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds -EXPERIMENTAL-</a></li>
+    </li>
+    <li>Tier 17 reports
+      <ul>
+        <li><a href="{{ site.url }}/reports/Raid_T17N.html">Warlords of Draenor T17N 670 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T17H.html">Warlords of Draenor T17H 685 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T17M.html">Warlords of Draenor T17M 700 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T17M_AOE.html">WoD T17M 700 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T17M_AddWaves.html">WoD T17M 700 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds -EXPERIMENTAL-</a></li>
+      </ul>
+    </li>
   </ul>
 </div>
