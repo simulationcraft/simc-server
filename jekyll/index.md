@@ -34,7 +34,7 @@ We also update release notes on every official build, which are easier to unders
     <li><h3>Warlords of Draenor 6.2</h3>
       <ul>
         <li><a href="{{ site.url }}/reports/Raid_T18N.html">Warlords of Draenor T18N 690-705 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T18H.html">Warlords of Draenor T18N 705-720 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T18H.html">Warlords of Draenor T18H 705-720 ilevel Patchwerk-style</a></li>
         <li><a href="{{ site.url }}/reports/Raid_T18H_AOE.html">WoD T18H 705-720 ilevel 4-target sustained AoE -EXPERIMENTAL-</a></li>
         <li><a href="{{ site.url }}/reports/Raid_T18H_AddWaves.html">WoD T18H 705-720 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds -EXPERIMENTAL-</a></li>
       </ul>
