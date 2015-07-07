@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NOW=$(date -Iseconds -u +%s)
+NOW=$(date -Iseconds -u)
 
 #cp /simc/reports/Raid_T17M.html /simc/reports/archive_html/${NOW}_Raid_T17M.html
 #gzip /simc/reports/archive_html/${NOW}_Raid_T17M.html
