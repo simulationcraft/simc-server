@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NOW=$(date +%s)
+NOW=$(date -Iseconds -u +%s)
 
 #cp /simc/reports/Raid_T17M.html /simc/reports/archive_html/${NOW}_Raid_T17M.html
 #gzip /simc/reports/archive_html/${NOW}_Raid_T17M.html
@@ -23,15 +23,26 @@ NOW=$(date +%s)
 #cp /simc/reports/Raid_T17H_AddWaves.txt /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 #gzip /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 
-cp /simc/reports/Raid_T18H_AOE.html /simc/reports/archive_html/${NOW}_Raid_T18H_AOE.html
-gzip /simc/reports/archive_html/${NOW}_Raid_T18H_AOE.html
+REPORT=RAID_T18N
+cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
+gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
+cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
+gzip /simc/reports/archive_txt/${NOW}_${REPORT}.txt
 
-cp /simc/reports/Raid_T18H_AddWaves.html /simc/reports/archive_html/${NOW}_Raid_T18H_AddWaves.html
-gzip /simc/reports/archive_html/${NOW}_Raid_T18H_AddWaves.html
+REPORT=RAID_T18H
+cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
+gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
+cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
+gzip /simc/reports/archive_txt/${NOW}_${REPORT}.txt
 
-cp /simc/reports/Raid_T18N.txt /simc/reports/archive_txt/${NOW}_Raid_T18N.txt
-gzip /simc/reports/archive_txt/${NOW}_Raid_T18N.txt
+REPORT=Raid_T18H_AddWaves
+cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
+gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
+cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
+gzip /simc/reports/archive_txt/${NOW}_${REPORT}.txt
 
-cp /simc/reports/Raid_T18H.txt /simc/reports/archive_txt/${NOW}_Raid_T18H.txt
-gzip /simc/reports/archive_txt/${NOW}_Raid_T18H.txt
-
+REPORT=Raid_T18H_AOE
+cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
+gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
+cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
+gzip /simc/reports/archive_txt/${NOW}_${REPORT}.txt
