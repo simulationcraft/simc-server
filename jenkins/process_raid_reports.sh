@@ -23,13 +23,13 @@ NOW=$(date -Iseconds -u)
 #cp /simc/reports/Raid_T17H_AddWaves.txt /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 #gzip /simc/reports/archive_txt/${NOW}_Raid_T17H_AddWaves.txt
 
-REPORT=RAID_T18N
+REPORT=Raid_T18N
 cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
 gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
 cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
 gzip /simc/reports/archive_txt/${NOW}_${REPORT}.txt
 
-REPORT=RAID_T18H
+REPORT=Raid_T18H
 cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
 gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
 cp /simc/reports/${REPORT}.txt /simc/reports/archive_txt/${NOW}_${REPORT}.txt
