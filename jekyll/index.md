@@ -17,15 +17,14 @@ easy access to simulation results at various gear points and patch levels.
 It is important that information flow in both directions. After examining the reports, players may detect 
 **inconsistencies** with their experiences in-game. In addition, <b>inefficiencies</b> (talents, glyphs, gear, 
 gems, enchants) may be found in the supplied profiles. <b>Please</b> take the time to open an 
-[**issue**](http://code.google.com/p/simulationcraft/issues/list) or leave a 
-[**comment**](http://code.google.com/p/simulationcraft/wiki/Feedback). We are continuously looking for new profiles, 
+[**issue**](https://github.com/simulationcraft/simc/issues). We are continuously looking for new profiles, 
 both at the normal and heroic levels.
 
 If you need help on running SimulationCraft, developing custom actions lists, or have other questions, please see our 
-[extensive documentation](http://code.google.com/p/simulationcraft/wiki/StartersGuide). You can also normally find 
+[extensive documentation](https://github.com/simulationcraft/simc/wiki/StartersGuide). You can also normally find 
 helpful people on our IRC channel at [irc.gamers-irc.org #simulationcraft](http://chat.mibbit.com/?server=irc.gamers-irc.org&amp;channel=%23simulationcraft)
 
-Wondering what may have changed since the last time reports were updated? [Check here!](https://code.google.com/p/simulationcraft/source/list)
+Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/master)
 We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
 
 <h2 class="toggle open">Raid Results</h2>
