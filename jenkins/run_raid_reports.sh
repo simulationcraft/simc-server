@@ -30,6 +30,7 @@ SIMC_OUTPUT_PATH="/simc/reports"
 
 ${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18N.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18N.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T18N.txt
 ${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18H.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T18H.txt
+${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T18M.txt
 
 # Aoe Sim
 aoe_options="enemy=enemy2 actions=auto_attack,damage=0 enemy=enemy3 actions=auto_attack,damage=0 enemy=enemy4 actions=auto_attack,damage=0"
