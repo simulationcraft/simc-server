@@ -30,7 +30,7 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Warlords of Draenor 6.2</h3>
+    <li><h3>Warlords of Draenor 6.2.3</h3>
       <ul>
         <li><a href="{{ site.url }}/reports/Raid_T18N.html">Warlords of Draenor T18N 705 ilevel Patchwerk-style</a></li>
         <li><a href="{{ site.url }}/reports/Raid_T18H.html">Warlords of Draenor T18H 720 ilevel Patchwerk-style</a></li>
