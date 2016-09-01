@@ -30,13 +30,9 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Warlords of Draenor 6.2.3</h3>
+    <li><h3>Legion 7.0.3 - More to come soon</h3>
       <ul>
-        <li><a href="{{ site.url }}/reports/Raid_T18N.html">Warlords of Draenor T18N 705 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T18H.html">Warlords of Draenor T18H 720 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T18M.html">Warlords of Draenor T18M 735 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T18H_AOE.html">WoD T18H 720 ilevel 4-target sustained AoE</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T18H_AddWaves.html">WoD T18H 720 ilevel Patchwerk + 15 seconds of 8 additional adds every 45 seconds</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T19P.html">Legion T19P 840 ilevel Patchwerk-style</a></li>
       </ul>
     </li>
   </ul>
