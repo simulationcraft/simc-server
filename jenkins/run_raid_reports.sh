@@ -28,7 +28,7 @@ SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T19P.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19P.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19P.txt
+${SIMC_CLI_PATH}/simc Raid_T19P.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19P.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19P.txt
 #${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18H.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T18H.txt
 #${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18M.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T18M.txt
 
