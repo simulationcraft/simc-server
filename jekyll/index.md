@@ -25,7 +25,7 @@ If you need help on running SimulationCraft, developing custom actions lists, or
 helpful people on our IRC channel at [irc.gamers-irc.org #simulationcraft](http://chat.mibbit.com/?server=irc.gamers-irc.org&amp;channel=%23simulationcraft)
 - Please be patient when waiting for a response, as a lot of people afk in the channel for long periods. 
 
-Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/master)
+Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/legion-dev)
 We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
 
 <h2 class="toggle open">Raid Results</h2>
