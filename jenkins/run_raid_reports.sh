@@ -15,7 +15,7 @@ if [ -n "${cpu_count_override}" ]; then
 fi
 
 # Iterations
-simc_iterations=15000
+simc_iterations=7500
 if [ -n "${simc_iterations_override}" ]; then
   simc_iterations=${simc_iterations_override}
 fi
@@ -29,8 +29,8 @@ SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
 ${SIMC_CLI_PATH}/simc Raid_T19P.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19P.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19P.txt
-#${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18H.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T18H.txt
-#${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18M.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T18M.txt
+${SIMC_CLI_PATH}/simc Raid_T19H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19H.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T19H.txt
+${SIMC_CLI_PATH}/simc Raid_T19M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19M.html threads=${available_cpus} ${other_options} > #${SIMC_OUTPUT_PATH}/Raid_T19M.txt
 
 # Aoe Sim
 #aoe_options="enemy=enemy2 actions=auto_attack,damage=0 enemy=enemy3 actions=auto_attack,damage=0 enemy=enemy4 actions=auto_attack,damage=0"
