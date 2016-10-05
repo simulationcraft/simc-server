@@ -34,7 +34,8 @@ We also update release notes on every official build, which are easier to unders
     <li><h3>Legion 7.0.3 - More to come soon</h3>
       <ul>
         <li><a href="{{ site.url }}/reports/Raid_T19P.html">Legion T19P 840 ilevel Patchwerk-style</a></li>
-      </ul>
+	    <li><a href="{{ site.url }}/reports/Raid_T19H.html">Legion T19H 865 ilevel Patchwerk-style</a></li>
+		</ul>
     </li>
   </ul>
 </div>
