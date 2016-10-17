@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
   var pcol = document.location.protocol;
   if (pcol != 'file:') {
     var whtt = document.createElement("script");
-    whtt.src = pcol + "//static.wowhead.com/widgets/power.js";
+    whtt.src = "http://static.wowhead.com/widgets/power.js";
     $('body').append(whtt);
   }
   $('a[ rel="_blank"]').each(function() {
