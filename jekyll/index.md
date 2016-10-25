@@ -31,7 +31,7 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Legion 7.0.3 - More to come soon</h3>
+    <li><h3>Legion 7.1.0 - WARNING: SOME SPECS LIKELY INACCURATE UNTIL ALL CHANGES ARE INTEGRATED FROM 7.1</h3>
       <ul>
         <li><a href="{{ site.url }}/reports/Raid_T19P.html">Legion T19P 840 ilevel Patchwerk-style</a></li>
 	    <li><a href="{{ site.url }}/reports/Raid_T19H.html">Legion T19H 865 ilevel Patchwerk-style</a></li>
