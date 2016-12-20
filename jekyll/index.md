@@ -36,7 +36,7 @@ We also update release notes on every official build, which are easier to unders
         <li><a href="{{ site.url }}/reports/Raid_T19P.html">Legion T19P 840 ilevel Patchwerk-style</a></li>
 	    <li><a href="{{ site.url }}/reports/Raid_T19H.html">Legion T19H 865 ilevel Patchwerk-style</a></li>
 		<li><a href="{{ site.url }}/reports/Raid_T19H_Legendary.html">Legion T19H Legendary comparison Patchwerk-style -- Work in progress</a></li>
-		<li><a href="{{ site.url }}/reports/Raid_T19M.html">Legion T19M 880 ilevel Patchwerk-style -- Work in progress</a></li>
+		<li><a href="{{ site.url }}/reports/Raid_T19M.html">Legion T19M 880 ilevel Patchwerk-style</a></li>
       </ul>
     </li>
   </ul>
