@@ -31,10 +31,12 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Legion 7.1.5</h3>
+    <li><h3>Legion 7.1.5 - Work in Progress</h3>
       <ul>
-	    <li><a href="{{ site.url }}/reports/Raid_T19H_NH.html">Legion T19H NH 890 ilevel Patchwerk-style -- Work in Progress</a></li>
-		<li><a href="{{ site.url }}/reports/Raid_T19M_NH.html">Legion T19M NH 910 ilevel Patchwerk-style -- Work in Progress</a></li>
+	    <li><a href="{{ site.url }}/reports/Raid_T19H_NH.html">Legion T19H NH 895 ilevel Patchwerk-style</a></li>
+		<li><a href="{{ site.url }}/reports/Raid_T19M_NH.html">Legion T19M NH 910 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T19H_NH_Legendary.html">Legion T19H NH 895 ilevel Patchwerk-style + Legendarys</a></li>
+        <li><a href="{{ site.url }}/reports/Raid_T19M_NH_Legendary.html">Legion T19M NH 910 ilevel Patchwerk-style + Legendarys</a></li>
       </ul>
     </li>
   </ul>
