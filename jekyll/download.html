@@ -3,6 +3,24 @@ layout: default
 title: Download
 ---
     {% assign processed_first = false %}
+    <div id="home-toc" class="grid section section-open final">
+       <h2>Simulationcraft nightly builds</h2>
+       <p>
+         <a href="http://downloads.simulationcraft.org/?C=M;O=D">Simulationcraft nightly builds are
+         found here</a>
+       <p>
+       <h3>Nightly build notes</h3>
+       <p>
+         Simulationcraft nightly builds are created on a semi-regular schedule (roughly every day)
+         for both Windows and MacOS. The nightly builds in the link above are always at the top of
+         the listing (the list is sorted by descending date).
+
+         The nightly builds contain a git commit hash of the source that was used to build the release.
+         For example, <strong>simc-720-01-nightly-osx-x86-5d1a8e17c.dmg	</strong> was built from the
+         sources that contain all code up to <a
+            href="https://github.com/simulationcraft/simc/commit/5d1a8e17c">this commit</a>.
+      </p>
+    </div>
     {% for post in site.posts %}
     {% if post.tags contains "release" %}
     <div id="home-toc" class="grid section section-open final">
