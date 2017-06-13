@@ -38,5 +38,5 @@ if ! which g++ make > /dev/null; then
 fi
 
 # Build
-make CXX=clang++ -C engine ${build_target} -j${available_cpus}
+make -C engine ${build_target} -j${available_cpus}
 
