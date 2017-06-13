@@ -28,9 +28,9 @@ SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc Raid_T19H_NH.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19H_NH.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19H_NH.txt
+${SIMC_CLI_PATH}/simc Raid_T20M.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T20M.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T20M.txt
+${SIMC_CLI_PATH}/simc Raid_T20H.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T20H.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T20H.txt
 ${SIMC_CLI_PATH}/simc Raid_T19M_NH.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19M_NH.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19M_NH.txt
-${SIMC_CLI_PATH}/simc Raid_T19H_NH_Legendary.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19H_NH_Legendary.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19H_NH_Legendary.txt
 ${SIMC_CLI_PATH}/simc Raid_T19M_NH_Legendary.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T19M_NH_Legendary.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T19M_NH_Legendary.txt
 
 # Aoe Sim
