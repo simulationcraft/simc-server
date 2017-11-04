@@ -38,5 +38,5 @@ if ! which g++ make > /dev/null; then
 fi
 
 # Build
-make -C engine ${build_target} -j${available_cpus}
+make DEBUG=1 -C engine ${build_target} -j${available_cpus}
 
