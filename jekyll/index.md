@@ -31,13 +31,12 @@ We also update release notes on every official build, which are easier to unders
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Legion 7.2.5</h3>
+    <li><h3>Legion 7.3.2</h3>
       <ul>
-        <li><a href="{{ site.url }}/reports/Raid_T21M.html">Legion T21M 960 ilevel Patchwerk-style (w/ Legendaries)</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T20M.html">Legion T20M 930 ilevel Patchwerk-style (w/ Legendaries)</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T19M_NH.html">Legion T19M NH 910 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T19M.html">Legion T19M 880 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/Raid_T19P.html">Legion T19P 880 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/T21_Raid.html">Legion Tier 21 960 ilevel Patchwerk-style (w/ Legendaries)</a></li>
+        <li><a href="{{ site.url }}/reports/T20_Raid.html">Legion Tier 20 930 ilevel Patchwerk-style (w/ Legendaries)</a></li>
+        <li><a href="{{ site.url }}/reports/T19_Raid.html">Legion Tier 19 NH 910 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/PR_Raid.html">Legion PreRaids 880 ilevel Patchwerk-style</a></li>
       </ul>
     </li>
   </ul>
