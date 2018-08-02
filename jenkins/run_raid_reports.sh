@@ -23,18 +23,10 @@ fi
 # Other options
 other_options="process_priority=low hosted_html=1"
 
-
 SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc T21_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T21_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T21_Raid.txt
-${SIMC_CLI_PATH}/simc T20_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T20_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T20_Raid.txt
-${SIMC_CLI_PATH}/simc T19_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T19_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T19_Raid.txt
+${SIMC_CLI_PATH}/simc T22_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T22_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T22_Raid.txt
 ${SIMC_CLI_PATH}/simc PR_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/PR_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/PR_Raid.txt
-
-# Aoe Sim
-#aoe_options="enemy=enemy2 actions=auto_attack,damage=0 enemy=enemy3 actions=auto_attack,damage=0 enemy=enemy4 actions=auto_attack,damage=0"
-#aoe_options2="raid_events+=/adds,count=8,first=15,cooldown=45,duration=15"
-#${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18H_AOE.simc ${aoe_options} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18H_AOE.html threads=${available_cpus} #${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T18H_AOE.txt
-#${SIMC_CLI_PATH}/simc enable_highcharts=1 Raid_T18H_Waves.simc ${aoe_options2} iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/Raid_T18H_AddWaves.html #threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/Raid_T18H_AddWaves.txt
+${SIMC_CLI_PATH}/simc T21_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T21_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T21_Raid.txt

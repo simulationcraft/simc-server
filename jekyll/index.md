@@ -23,18 +23,17 @@ both at the normal and heroic levels.
 If you need help on running SimulationCraft, developing custom actions lists, or have other questions, please see our 
 [extensive documentation](https://github.com/simulationcraft/simc/wiki/StartersGuide) or check out our [Github project page](https://github.com/simulationcraft/simc).
 
-Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/legion-dev)
+Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/bfa-dev)
 We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
-    <li><h3>Legion 7.3.2</h3>
+    <li><h3>Patch 8.0.1</h3>
       <ul>
-        <li><a href="{{ site.url }}/reports/T21_Raid.html">Legion Tier 21 960 ilevel Patchwerk-style (w/ Legendaries)</a></li>
-        <li><a href="{{ site.url }}/reports/T20_Raid.html">Legion Tier 20 930 ilevel Patchwerk-style (w/ Legendaries)</a></li>
-        <li><a href="{{ site.url }}/reports/T19_Raid.html">Legion Tier 19 NH 910 ilevel Patchwerk-style</a></li>
-        <li><a href="{{ site.url }}/reports/PR_Raid.html">Legion PreRaids 880 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/T22_Raid.html">BfA Tier 22 385 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/PR_Raid.html">BfA PreRaids 340 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/T21_Raid.html">Legion Tier 21 240 ilevel Patchwerk-style (w/ Legendaries)</a></li>
       </ul>
     </li>
   </ul>
