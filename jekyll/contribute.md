@@ -47,8 +47,8 @@ model it.
     
 ### Documentation
 
-[The wiki documentation](https://code.google.com/p/simulationcraft/wiki/DocumentationTOC)
+[The wiki documentation](https://github.com/simulationcraft/simc/wiki)
 is always looking for helpers to improve and expand it or just keep it up to date with the development
 of SimulationCraft. Here you can generate a big impact on the usability of the project while getting
 to know the manifold options SimC offers yourself.
-There is also the possibility to write usage guides here, either by creating new ones or reworking the Starters Guide.   
+There is also the possibility to write usage guides here, either by creating new ones or reworking the Starters Guide.

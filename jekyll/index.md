@@ -24,7 +24,6 @@ If you need help on running SimulationCraft, developing custom actions lists, or
 [extensive documentation](https://github.com/simulationcraft/simc/wiki/StartersGuide) or check out our [Github project page](https://github.com/simulationcraft/simc).
 
 Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/bfa-dev)
-We also update release notes on every official build, which are easier to understand but are not as up to date. [Check them out here](http://www.simulationcraft.org/download.html)
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
