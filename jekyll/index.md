@@ -30,7 +30,7 @@ Wondering what may have changed since the last time reports were updated? [Check
   <ul>
     <li><h3>Patch 8.0.1</h3>
       <ul>
-        <li><a href="{{ site.url }}/reports/T22_Raid.html">[WIP] BfA Tier 22 385 ilevel Patchwerk-style</a></li>
+        <li><a href="{{ site.url }}/reports/T22_Raid.html">BfA Tier 22 385 ilevel Patchwerk-style (with Reorigination Array @ 10)</a></li>
         <li><a href="{{ site.url }}/reports/PR_Raid.html">BfA PreRaids 340 ilevel Patchwerk-style</a></li>
       </ul>
     </li>
