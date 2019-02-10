@@ -34,7 +34,7 @@ Wondering what may have changed since the last time reports were updated? [Check
         <li>
           <h4>Tier 23</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/T23_Raid_DungeonSlice.html">BfA Tier 23 415 ilevel DungeonSlice-style</a></li>
+            <li><a href="{{ site.url }}/reports/DS_DungeonSlice.html">BfA Tier 23 415 ilevel DungeonSlice-style</a></li>
             <li><a href="{{ site.url }}/reports/T23_Raid.html">BfA Tier 23 415 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
