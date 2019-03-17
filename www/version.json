@@ -1,0 +1,14 @@
+[
+  {
+    "version": "815",
+    "release": "01",
+    "url": "https://www.simulationcraft.org/download.html",
+    "notes": "<ul><li><strong>Healers are not supported, and <a href=\"https://github.com/simulationcraft/simc#how-can-i-contribute\">currently have no developer working on them.</a></strong></li><li><a href=\"https://github.com/simulationcraft/simc/compare/release-810-01...release-815-01\">List of changes between 8.1.0 release 1 and 8.1.5 release 1</a></li><li>This version will reset the Graphical User Interface options</li><li>Initial support for new allied races introduced in 8.1.5.</li><li>Implement a basic update check mechanism to the Graphical User Interface</li><li><strong>Implement support for the new Blizzard API endpoints for World of Warcraft.</stong> More information can be found <a href=\"https://github.com/simulationcraft/simc/wiki/BattleArmoryAPI\">here</a></li></ul>"
+  },
+  {
+    "version": "810",
+    "release": "01",
+    "url": "https://www.simulationcraft.org/download.html",
+    "notes": "<ul><li><strong>Healers are not supported, and <a href=\"https://github.com/simulationcraft/simc#how-can-i-contribute\">currently have no developer working on them.</a></strong></li><li><strong>Protection Warriors are currently disabled</strong></li><li><a href=\"https://github.com/simulationcraft/simc/compare/release-801-01...release-810-01\">List of changes between 8.0.1 release 1 and 8.1.0 release 1</a></li><li>Hotfixes Current as of 2018-12-19</li></ul>"
+  }
+]
