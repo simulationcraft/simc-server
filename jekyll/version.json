@@ -1,5 +1,11 @@
 [
   {
+    "version": "820",
+    "release": "01",
+    "url": "https://www.simulationcraft.org/download.html",
+    "notes": "<ul><li><strong>Healers are mostly not supported, and <a href=\"https://github.com/simulationcraft/simc#how-can-i-contribute\">currently have no developer actively working on them.</a></strong></li><li><strong>Most DPS specializations and items for 8.2.0 implemented, see <a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSP_p5jJP5EpDJ7oTsRQtBZKuGR2O4gAclHhb3IoQy2WnL31p1Awe5RBXIEGMlteeakCXGkR1LD8LxB/pubhtml\">here for more details.</a></strong></li><li>New <a href=\"https://us.battle.net/forums/en/bnet/topic/20772457051\">Blizzard API Profile character endpoints</a> in use for armory imports. This information includes full Azerite Esseence, and \"drop level\" support (for certain BfA leveling items). Note that downloads for characters that have not logged in for a while (after 2019-07-02) may not successfully load until several hours have passed.</li><li><a href=\"https://github.com/simulationcraft/simc/compare/release-815-01...release-820-01\">List of changes between 8.1.5 release 1 and 8.2.0 release 1</a></li><li>Hotfixes included up to 2019-07-16</li></ul>"
+  },
+  {
     "version": "815",
     "release": "01",
     "url": "https://www.simulationcraft.org/download.html",
