@@ -1,5 +1,11 @@
 [
   {
+    "version": "830",
+    "release": "01",
+    "url": "https://www.simulationcraft.org/download.html",
+    "notes": "<ul><li><strong>Healers are mostly not supported, and <a href=\"https://github.com/simulationcraft/simc#how-can-i-contribute\">currently have no developer actively working on them.</a></strong></li><li><strong>Most DPS specializations and items for 8.3.0 implemented, see <a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSGcEJgomgZLu6H8W6PLor6XfUP5C-Orz--UGOrT4ejj2pKRKJsE7jAakifsogZHHzn9rnKXBaICdEs/pubhtml\">here for more details.</a></strong></li><li><a href=\"https://github.com/simulationcraft/simc/compare/release-820-01...release-830-01\">List of changes between 8.2.0 release 1 and 8.3.0 release 1</a></li><li>Hotfixes included up to 2019-07-16</li></ul>"
+  },
+  {
     "version": "820",
     "release": "01",
     "url": "https://www.simulationcraft.org/download.html",
