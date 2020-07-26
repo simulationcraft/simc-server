@@ -27,6 +27,8 @@ Wondering what may have changed since the last time reports were updated? [Check
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
+  Raid results are currently unavailable. We plan to bring them back for Shadowlands.
+  {% comment %}
   <ul>
     <li>
       <h3>Patch 8.3.0</h3>
@@ -41,4 +43,5 @@ Wondering what may have changed since the last time reports were updated? [Check
       </ul>
     </li>
   </ul>
+  {% endcomment %}
 </div>
