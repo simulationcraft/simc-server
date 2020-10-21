@@ -6,33 +6,40 @@ title: Download
     <div id="home-toc" class="grid section section-open final">
        <h2>Simulationcraft nightly builds</h2>
        <p>
-         <a href="http://downloads.simulationcraft.org/?C=M;O=D">Simulationcraft nightly builds are
+         <a href="http://downloads.simulationcraft.org/nightly/?C=M;O=D">Simulationcraft nightly builds are
          found here</a>
-       <p>
-       <h3>Nightly build notes</h3>
-       <p>
-         Simulationcraft nightly builds are created on a semi-regular schedule for both Windows and MacOS.
-         The nightly builds in the link above are always at the top ofthe listing (the list is sorted by descending date).<br/>
+      </p>
+      <p>
+         Simulationcraft nightly builds are created daily for both Windows and MacOS.
+         The link above always contains only the latest available build for a given version.<br/>
        </p>
        <p>
          The nightly builds contain a git commit hash of the source that was used to build the release.
-         For example, <strong>simc-720-01-nightly-osx-x86-5d1a8e17c.dmg	</strong> was built from the
+         For example, <strong>simc-901-01-win64-7bd7371.7z</strong> was built from the
          sources that contain all code up to <a
-            href="https://github.com/simulationcraft/simc/commit/5d1a8e17c">this commit</a>.
+            href="https://github.com/simulationcraft/simc/commit/7bd7371">this commit</a>.
       </p>
+      <p>
+         <b>There will no longer be any manual release builds available starting with shadowlands.</b>
+         SimulationCraft is in constant development, which means that manual releases quickly become outdated. This often caused confusion and problems in the past, since important enhancements and bugfixes are often missing.
+         We think that providing only nightly builds will be more beneficial for everyone involved.
+       </p>
+       <p>
+         Old nightly builds can be found <a href="https://github.com/simulationcraft/simc-publish/actions?query=workflow%3ANightly">here</a> and can be downloaded by clicking on a build and downloading the artifact from github.
+       </p>
     </div>
-    {% for post in site.posts %}
-    {% if post.tags contains "release" %}
-    <div id="home-toc" class="grid section section-open final">
-      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-      {% if processed_first != true %}
-        {% assign processed_first = true %}
-        <p><i>Released on {{ post.date | date_to_string }}</i></p>
-        {{ post.content }}
+    <!-- {% for post in site.posts %}
+      {% if post.tags contains "release" %}
+      <div id="home-toc" class="grid section section-open final">
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+        {% if processed_first != true %}
+          {% assign processed_first = true %}
+          <p><i>Released on {{ post.date | date_to_string }}</i></p>
+          {{ post.content }}
+        {% endif %}
+      </div>
       {% endif %}
-    </div>
-    {% endif %}
-  	{% endfor %}
+  	{% endfor %} -->
       
     <div id="home-toc" class="grid section section-open final">
       <h4><a href="http://downloads.simulationcraft.org/">Previous versions</a></h4>
