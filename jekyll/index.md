@@ -27,21 +27,20 @@ Wondering what may have changed since the last time reports were updated? [Check
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
-  Raid results are currently unavailable. We plan to bring them back for Shadowlands.
-  {% comment %}
   <ul>
     <li>
-      <h3>Patch 8.3.0</h3>
+      <h3>Patch 9.0.2</h3>
       <ul>
         <li>
-          <h4>Tier 25 - Ny'alotha</h4>
+          <h4>Pre-Raid</h4>
           <ul>
+          {% comment %}
             <li><a href="{{ site.url }}/reports/DS_DungeonSlice.html">BfA Tier 25 475 ilevel DungeonSlice-style</a></li>
-            <li><a href="{{ site.url }}/reports/T25_Raid.html">BfA Tier 25 Ny'alotha 475 ilevel Patchwerk-style</a></li>
+          {% endcomment %}
+            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendary) 184 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
     </li>
   </ul>
-  {% endcomment %}
 </div>
