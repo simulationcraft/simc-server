@@ -34,10 +34,8 @@ Wondering what may have changed since the last time reports were updated? [Check
         <li>
           <h4>Pre-Raid</h4>
           <ul>
-          {% comment %}
-            <li><a href="{{ site.url }}/reports/DS_DungeonSlice.html">BfA Tier 25 475 ilevel DungeonSlice-style</a></li>
-          {% endcomment %}
-            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendary) 184 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendar & 1 Conduit) 184 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/T26_Raid.html">Shadowlands Nathria (with Legendary & 2 Conduits) ~226 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
