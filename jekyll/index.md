@@ -34,7 +34,7 @@ Wondering what may have changed since the last time reports were updated? [Check
         <li>
           <h4>Pre-Raid</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendar &amp; 1 Conduit) 184 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendary &amp; 1 Conduit) 184 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
         <li>
