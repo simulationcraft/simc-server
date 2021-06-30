@@ -29,7 +29,7 @@ Wondering what may have changed since the last time reports were updated? [Check
 <div class="toggle-content">
   <ul>
     <li>
-      <h3>Patch 9.0.2</h3>
+      <h3>Patch 9.1.0</h3>
       <ul>
         <li>
           <h4>Pre-Raid</h4>
@@ -41,6 +41,12 @@ Wondering what may have changed since the last time reports were updated? [Check
           <h4>T26 (Castle Nathria)</h4>
           <ul>
             <li><a href="{{ site.url }}/reports/T26_Raid.html">Shadowlands Nathria (with Legendary &amp; 2 Conduits) ~226 ilevel Patchwerk-style</a></li>
+          </ul>
+        </li>
+        <li>
+          <h4>T27 (Sanctum of Domination)</h4>
+          <ul>
+            <li><a href="{{ site.url }}/reports/T27_Raid.html">Shadowlands Sanctum of Domination (with Legendary &amp; up to 3 Conduits) ~252 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
