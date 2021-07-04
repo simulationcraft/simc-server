@@ -46,7 +46,7 @@ Wondering what may have changed since the last time reports were updated? [Check
         <li>
           <h4>T27 (Sanctum of Domination)</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/T27_Raid.html">Shadowlands Sanctum of Domination (with Legendary &amp; up to 3 Conduits) ~252 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/T27_Raid.html">Shadowlands Sanctum of Domination (with Legendary &amp; up to 3 Conduits) ~252-259 Mythic ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
