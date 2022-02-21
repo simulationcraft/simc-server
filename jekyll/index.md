@@ -29,7 +29,7 @@ Wondering what may have changed since the last time reports were updated? [Check
 <div class="toggle-content">
   <ul>
     <li>
-      <h3>Patch 9.1.0</h3>
+      <h3>Patch 9.2.0</h3>
       <ul>
         <li>
           <h4>Pre-Raid</h4>
@@ -47,6 +47,12 @@ Wondering what may have changed since the last time reports were updated? [Check
           <h4>T27 (Sanctum of Domination)</h4>
           <ul>
             <li><a href="{{ site.url }}/reports/T27_Raid.html">Shadowlands Sanctum of Domination (with Legendary &amp; up to 3 Conduits) ~252-259 Mythic ilevel Patchwerk-style</a></li>
+          </ul>
+        </li>
+        <li>
+          <h4>T28 (Sepulcher of the First Ones)</h4>
+          <ul>
+            <li><a href="{{ site.url }}/reports/T28_Raid.html">Shadowlands Sepulcher of the First Ones (with 4pc Tier set &amp; with 2 Legendaries &amp; up to 3 Conduits) ~280-285 Mythic ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
