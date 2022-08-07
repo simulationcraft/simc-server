@@ -56,7 +56,7 @@ Wondering what may have changed since the last time reports were updated? [Check
           </ul>
         </li>
         <li>
-          <h4>T28_5 (Fated Season 4)</h4>
+          <h4>T28.5 (Fated Season 4)</h4>
           <ul>
             <li><a href="{{ site.url }}/reports/T28_5_Raid.html">Shadowlands Season 4 (with 4pc Tier set &amp; with 2 Legendaries &amp; up to 3 Conduits) ~304-311 Mythic ilevel Patchwerk-style</a></li>
           </ul>
