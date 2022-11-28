@@ -28,7 +28,4 @@ SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
 ${SIMC_CLI_PATH}/simc PR_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/PR_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/PR_Raid.txt
-${SIMC_CLI_PATH}/simc T26_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T26_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T26_Raid.txt
-${SIMC_CLI_PATH}/simc T27_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T27_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T27_Raid.txt
-${SIMC_CLI_PATH}/simc T28_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T28_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T28_Raid.txt
-${SIMC_CLI_PATH}/simc T28_5_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T28_5_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T28_5_Raid.txt
+${SIMC_CLI_PATH}/simc T29_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T29_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T29_Raid.txt

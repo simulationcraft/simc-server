@@ -23,42 +23,24 @@ both at the normal and heroic levels.
 If you need help on running SimulationCraft, developing custom actions lists, or have other questions, please see our
 [extensive documentation](https://github.com/simulationcraft/simc/wiki/StartersGuide) or check out our [Github project page](https://github.com/simulationcraft/simc).
 
-Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/bfa-dev)
+Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/dragonflight)
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
     <li>
-      <h3>Patch 9.2.0</h3>
+      <h3>Patch 10.0.2</h3>
       <ul>
         <li>
           <h4>Pre-Raid</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/PR_Raid.html">Shadowlands Pre-Raid (with Legendary &amp; 1 Conduit) 184 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/PR_Raid.html">Dragonflight Pre-Raid 372 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
         <li>
-          <h4>T26 (Castle Nathria)</h4>
+          <h4>T29 (Vault of the Incarnates)</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/T26_Raid.html">Shadowlands Nathria (with Legendary &amp; 2 Conduits) ~226 ilevel Patchwerk-style</a></li>
-          </ul>
-        </li>
-        <li>
-          <h4>T27 (Sanctum of Domination)</h4>
-          <ul>
-            <li><a href="{{ site.url }}/reports/T27_Raid.html">Shadowlands Sanctum of Domination (with Legendary &amp; up to 3 Conduits) ~252-259 Mythic ilevel Patchwerk-style</a></li>
-          </ul>
-        </li>
-        <li>
-          <h4>T28 (Sepulcher of the First Ones)</h4>
-          <ul>
-            <li><a href="{{ site.url }}/reports/T28_Raid.html">Shadowlands Sepulcher of the First Ones (with 4pc Tier set &amp; with 2 Legendaries &amp; up to 3 Conduits) ~280-285 Mythic ilevel Patchwerk-style</a></li>
-          </ul>
-        </li>
-        <li>
-          <h4>T28.5 (Fated Season 4)</h4>
-          <ul>
-            <li><a href="{{ site.url }}/reports/T28_5_Raid.html">Shadowlands Season 4 (with 4pc Tier set &amp; with 2 Legendaries &amp; up to 3 Conduits) ~304-311 Mythic ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/T29_Raid.html">Dragonflight Vault of the Incarnates ~422 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
