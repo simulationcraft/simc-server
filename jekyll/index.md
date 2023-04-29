@@ -43,6 +43,12 @@ Wondering what may have changed since the last time reports were updated? [Check
             <li><a href="{{ site.url }}/reports/T29_Raid.html">Dragonflight Vault of the Incarnates ~422 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
+        <li>
+          <h4>T30 (Aberrus the Shadowed Crucible)</h4>
+          <ul>
+            <li><a href="{{ site.url }}/reports/T30_Raid.html">Dragonflight Aberrus the Shadowed Crucible ~448 ilevel Patchwerk-style</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
