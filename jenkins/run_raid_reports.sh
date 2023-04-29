@@ -29,3 +29,4 @@ SIMC_OUTPUT_PATH="/simc/reports"
 
 ${SIMC_CLI_PATH}/simc PR_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/PR_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/PR_Raid.txt
 ${SIMC_CLI_PATH}/simc T29_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T29_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T29_Raid.txt
+${SIMC_CLI_PATH}/simc T30_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T30_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T30_Raid.txt
