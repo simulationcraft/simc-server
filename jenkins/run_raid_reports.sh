@@ -27,6 +27,7 @@ SIMC_CLI_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/engine"
 SIMC_PROFILES_PATH="/var/lib/jenkins/jobs/simc-raid-reports/workspace/profiles"
 SIMC_OUTPUT_PATH="/simc/reports"
 
-${SIMC_CLI_PATH}/simc PR_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/PR_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/PR_Raid.txt
-${SIMC_CLI_PATH}/simc T29_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T29_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T29_Raid.txt
-${SIMC_CLI_PATH}/simc T30_Raid.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/T30_Raid.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/T30_Raid.txt
+for REPORT in PR_Raid T29_Raid T30_Raid T31_Raid
+do
+  ${SIMC_CLI_PATH}/simc ${REPORT}.simc iterations=${simc_iterations} html=${SIMC_OUTPUT_PATH}/${REPORT}.html threads=${available_cpus} ${other_options} > ${SIMC_OUTPUT_PATH}/${REPORT}.txt
+done
