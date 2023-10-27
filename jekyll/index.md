@@ -29,7 +29,7 @@ Wondering what may have changed since the last time reports were updated? [Check
 <div class="toggle-content">
   <ul>
     <li>
-      <h3>Patch 10.0.2</h3>
+      <h3>Patch 10.2.0</h3>
       <ul>
         <li>
           <h4>Pre-Raid</h4>
@@ -47,6 +47,12 @@ Wondering what may have changed since the last time reports were updated? [Check
           <h4>T30 (Aberrus the Shadowed Crucible)</h4>
           <ul>
             <li><a href="{{ site.url }}/reports/T30_Raid.html">Dragonflight Aberrus the Shadowed Crucible ~448 ilevel Patchwerk-style</a></li>
+          </ul>
+        </li>
+        <li>
+          <h4>T31 (Amirdrassil, the Dream's Hope)</h4>
+          <ul>
+            <li><a href="{{ site.url }}/reports/T31_Raid.html">Dragonflight Amirdrassil, the Dream's Hope ~489 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
