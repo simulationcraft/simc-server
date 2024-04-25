@@ -2,7 +2,7 @@
 
 NOW=$(date -Iseconds -u)
 
-for REPORT in PR_Raid T29_Raid T30_Raid T31_Raid
+for REPORT in PR_Raid T29_Raid T30_Raid T31_Raid DF4_Raid
 do
     cp /simc/reports/${REPORT}.html /simc/reports/archive_html/${NOW}_${REPORT}.html
     gzip /simc/reports/archive_html/${NOW}_${REPORT}.html
