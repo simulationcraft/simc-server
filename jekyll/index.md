@@ -38,7 +38,7 @@ Wondering what may have changed since the last time reports were updated? [Check
           </ul>
         </li>
         <li>
-          <h4>TWW1</h4>
+          <h4>TWW1 (Nerub-ar Palace)</h4>
           <ul>
             <li><a href="{{ site.url }}/reports/TWW1_Raid.html">The War Within ~639 ilevel Patchwerk-style</a></li>
           </ul>
