@@ -49,6 +49,12 @@ Wondering what may have changed since the last time reports were updated? [Check
             <li><a href="{{ site.url }}/reports/TWW2_Raid.html">The War Within ~684 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
+        <li>
+          <h4>TWW3 (Manaforge Omega)</h4>
+          <ul>
+            <li><a href="{{ site.url }}/reports/TWW3_Raid.html">The War Within ~723 ilevel Patchwerk-style</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
