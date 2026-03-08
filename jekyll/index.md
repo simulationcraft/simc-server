@@ -23,36 +23,24 @@ both at the normal and heroic levels.
 If you need help on running SimulationCraft, developing custom actions lists, or have other questions, please see our
 [extensive documentation](https://github.com/simulationcraft/simc/wiki/StartersGuide) or check out our [Github project page](https://github.com/simulationcraft/simc).
 
-Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/thewarwithin)
+Wondering what may have changed since the last time reports were updated? [Check here!](https://github.com/simulationcraft/simc/commits/midnight)
 
 <h2 class="toggle open">Raid Results</h2>
 <div class="toggle-content">
   <ul>
     <li>
-      <h3>Patch 11.0.2</h3>
+      <h3>Patch 12.0.1</h3>
       <ul>
         <li>
           <h4>Pre-Raid</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/PR_Raid.html">The War Within Pre-Raid 593 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/PR_Raid.html">Pre-Raid ~214 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
         <li>
-          <h4>TWW1 (Nerub-ar Palace)</h4>
+          <h4>MID1 (The Dreamrift & The Voidspire & March on Quel'Danas)</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/TWW1_Raid.html">The War Within ~639 ilevel Patchwerk-style</a></li>
-          </ul>
-        </li>
-        <li>
-          <h4>TWW2 (Liberation of Undermine)</h4>
-          <ul>
-            <li><a href="{{ site.url }}/reports/TWW2_Raid.html">The War Within ~684 ilevel Patchwerk-style</a></li>
-          </ul>
-        </li>
-        <li>
-          <h4>TWW3 (Manaforge Omega)</h4>
-          <ul>
-            <li><a href="{{ site.url }}/reports/TWW3_Raid.html">The War Within ~723 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/MID1_Raid.html">~290 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>

@@ -1,5 +1,6 @@
 cd /simc/src
 git reset --hard
+git checkout midnight
 git pull
 cd engine
 compiler=g++
