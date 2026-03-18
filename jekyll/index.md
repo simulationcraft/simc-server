@@ -12,6 +12,10 @@ to close the accuracy gap while maintaining a performance level high enough to c
 
 The primary purpose of this site is to host some sample profiles at various gear points and patch levels.
 
+**SimulationCraft is not a tool meant to be used to compare different classes.**
+
+These sample profiles are provided in a single view for convenience but do not represent any sort of ranking.
+
 It is important that information flow in both directions. After examining the reports, players may detect
 **inconsistencies** with their experiences in-game. In addition, <b>inefficiencies</b> (talents, gear,
 gems, enchants) may be found in the supplied profiles. <b>Please</b> take the time to open an
