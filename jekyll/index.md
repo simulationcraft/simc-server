@@ -48,7 +48,7 @@ Wondering what may have changed since the last time reports were updated? [Check
         <li>
           <h4>MID2 (The Venomous Abyss & The Tidebound Grotto)</h4>
           <ul>
-            <li><a href="{{ site.url }}/reports/MID2_Raid.html">~330 ilevel Patchwerk-style</a></li>
+            <li><a href="{{ site.url }}/reports/MID2_Raid.html">~337 ilevel Patchwerk-style</a></li>
           </ul>
         </li>
       </ul>
